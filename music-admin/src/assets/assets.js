@@ -1,4 +1,4 @@
-import logo from './tmusic_long_logo.png'
+import logo from './Tmusic_long_logo.png'
 import logo_small from './tmusic_logo.png'
 import upload_area from './upload_area.png'
 import upload_added from './upload_added.png'
