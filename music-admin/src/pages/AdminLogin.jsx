@@ -12,7 +12,7 @@ import { useNavigate } from "react-router-dom";
  * (Bạn có thể chuyển API_BASE vào file config nếu muốn)
  */
 
-const API_BASE = "http://localhost:4000";
+const API_BASE = "https://t-music.onrender.com";
 
 export default function AdminLogin() {
   const navigate = useNavigate();
