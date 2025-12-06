@@ -1,0 +1,63 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+.env.test
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+logs/
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage
+coverage/
+*.lcov
+
+# Build output
+dist/
+build/
+.cache/
+.temp/
+
+# Dependency caches
+.npm/
+.yarn/
+.pnp.*
+.pnpm-debug.log
+
+# TypeScript
+*.tsbuildinfo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor folders
+.vscode/
+.idea/
+
+# Optional: if using PM2
+.pids
+logs
+
+# Optional: if using Prisma
+prisma/migrations/dev.db-journal
+*.db-journal
+
+# Optional: if using Docker
+docker-data/

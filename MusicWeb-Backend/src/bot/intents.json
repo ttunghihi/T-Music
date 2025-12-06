@@ -1,0 +1,379 @@
+[
+  {
+    "name": "greeting",
+    "trainingPhrases": [
+      "hi",
+      "hello",
+      "chào",
+      "xin chào",
+      "hey",
+      "chào bạn",
+      "hello?",
+      "chào buổi sáng",
+      "chào buổi tối",
+      "yo",
+      "aloha"
+    ],
+    "responses": [
+      "Chào bạn! Rất vui được hỗ trợ bạn trên web nhạc của chúng ta. Hôm nay bạn muốn nghe nhạc, tìm hiểu về upload bài hát, hay cần biết thêm về tài khoản Premium? Mình có thể hướng dẫn chi tiết đấy.",
+      "Xin chào! Bạn đang tìm gì trên nền tảng nhạc của mình? Nếu cần hướng dẫn nghe nhạc, tạo playlist, hoặc nâng cấp Premium để mở khóa tính năng đặc biệt, cứ hỏi mình nhé."
+    ]
+  },
+  {
+    "name": "intent_upload_song",
+    "trainingPhrases": [
+      "up",
+      "upload",
+      "up?",
+      "upload?",
+      "up bài",
+      "up bài?",
+      "upload nhạc",
+      "upload nhạc ở đâu",
+      "up nhạc ở đâu",
+      "tải nhạc lên",
+      "tải bài hát lên",
+      "tải lên",
+      "đăng nhạc",
+      "đăng bài",
+      "thêm bài",
+      "add song",
+      "add track",
+      "up track",
+      "up audio",
+      "up song",
+      "làm sao up bài",
+      "cách up bài",
+      "up không được",
+      "upload failed",
+      "upload bị lỗi",
+      "file quá lớn",
+      "giới hạn dung lượng",
+      "up bằng điện thoại",
+      "bulk upload",
+      "up nhiều bài",
+      "reupload",
+      "sửa bài đã đăng",
+      "thay cover",
+      "change cover",
+      "upoad",
+      "uplod",
+      "uplaod",
+      "up load",
+      "upl",
+      "upl?",
+      "upload?",
+      "tải?",
+      "tải lên?",
+      "tại sao không up được",
+      "upload yêu cầu gì",
+      "hướng dẫn up nhạc"
+    ],
+    "responses": [
+      "Tính năng upload bài hát chỉ dành cho tài khoản Premium vì nó giúp chúng tôi duy trì chất lượng nội dung và hỗ trợ nghệ sĩ độc lập. Nếu bạn chưa có Premium, hãy nâng cấp để mở khóa nhé. Bạn cần mình hướng dẫn cách đăng ký hay đi thẳng tới trang Upload?",
+      "Để upload, bạn cần tài khoản Premium – lý do là để tránh lạm dụng và ưu tiên người dùng hỗ trợ nền tảng. Hướng dẫn nhanh: Đăng nhập, vào phần Upload, chọn file audio (mp3/m4a/wav dưới 10MB), thêm tên, cover (jpg/png ≤5MB), rồi bấm Tải lên. Nếu lỗi, có thể do file lớn quá hoặc kết nối yếu, thử lại xem sao. Bạn gặp vấn đề cụ thể gì?"
+    ]
+  },
+  {
+  "name": "intent_premium",
+  "trainingPhrases": [
+    "premium",
+    "vip",
+    "pro",
+    "nâng cấp",
+    "mua premium",
+    "mua vip",
+    "upgrade",
+    "mở khóa",
+    "mở khoá upload",
+    "giá premium",
+    "gửi bill",
+    "gửi receipt",
+    "receipt",
+    "hoá đơn",
+    "hoadon",
+    "premum",
+    "preimum",
+    "prem",
+    "vipp",
+    "reciept",
+    "recipt",
+    "lợi ích premium",
+    "premium để làm gì",
+    "cách mua premium",
+    "premium bao nhiêu tiền",
+    "mua premium ở đâu",
+    "hướng dẫn mua premium",
+    "thanh toán premium",
+    "cách đăng ký premium",
+    "làm sao để có premium",
+    "nâng cấp tài khoản"
+  ],
+  "responses": [
+    "Premium giúp bạn upload nhạc không giới hạn, tạo playlist riêng, nghe nhạc không quảng cáo và được hỗ trợ nhanh hơn. Giá chỉ từ 49k/tháng hoặc 399k/năm (rẻ hơn 30%). Muốn mình hướng dẫn cách mua ngay không?",
+    
+    "Cách mua Premium siêu nhanh đây nè:\n1. Vào Menu → Premium (hoặc click nút Nâng cấp ở góc trên)\n2. Chọn gói 1 tháng / 6 tháng / 12 tháng\n3. Thanh toán qua Momo, ZaloPay, thẻ ngân hàng hoặc chuyển khoản\n4. Sau khi chuyển xong → chụp ảnh biên lai → vào trang PremiumPayment gửi lên\nAdmin duyệt trong 24-48h là bạn có Premium ngay. Bạn muốn mình gửi link trang thanh toán luôn không?",
+    
+    "Hiện tại chỉ nhận thanh toán qua chuyển khoản ngân hàng hoặc ví điện tử. Sau khi chuyển tiền xong, bạn vào trang PremiumPayment (có link ở footer hoặc Menu) → upload ảnh hóa đơn → chờ admin duyệt là xong.",
+    
+    "Premium cần thiết nếu bạn muốn tự up nhạc hoặc tạo playlist riêng, vì nó giúp mình duy trì server và kiểm soát chất lượng nội dung. Nếu bạn chỉ nghe nhạc thì không cần Premium vẫn thoải mái. Bạn đang muốn mua để up nhạc hay chỉ để không quảng cáo thôi?",
+    
+    "Bạn đã thanh toán rồi hả? Admin duyệt rất nhanh, thường dưới 24h, cuối tuần thì chậm hơn chút. Bạn vui lòng đăng xuất và vào lại để kiểm tra nhé!!"
+  ]
+},
+  {
+    "name": "intent_playlist",
+    "trainingPhrases": [
+      "playlist",
+      "tạo playlist",
+      "tạo play list",
+      "tạo danh sách phát",
+      "add playlist",
+      "thêm playlist",
+      "xóa playlist",
+      "xoá playlist",
+      "không thể tạo playlist",
+      "sao không tạo playlist được",
+      "playlist ở đâu",
+      "my playlist",
+      "playlit",
+      "plylist",
+      "plist",
+      "chỉnh sửa playlist",
+      "thêm bài vào playlist",
+      "xóa bài khỏi playlist",
+      "playlist công khai"
+    ],
+    "responses": [
+      "Tạo playlist là tính năng Premium vì nó giúp cá nhân hóa trải nghiệm và khuyến khích người dùng hỗ trợ nền tảng lâu dài. Bạn có thể vào Library > Playlists để bắt đầu sau khi nâng cấp. Nếu chưa có, mình hướng dẫn đăng ký Premium nhé? Hoặc bạn muốn một playlist gợi ý dựa trên sở thích?",
+      "Để tạo playlist, cần Premium – lý do là để ưu tiên tài nguyên cho người dùng trả phí và tránh nội dung lộn xộn. Hướng dẫn: Vào Library, nhấn 'Tạo mới', thêm tên và bài hát. Nếu bạn đã có Premium mà vẫn lỗi, kiểm tra đăng nhập lại. Bạn muốn mình tạo playlist mẫu theo chủ đề gì?"
+    ]
+  },
+  {
+    "name": "intent_like_favorite",
+    "trainingPhrases": [
+      "like",
+      "thích",
+      "thả tim",
+      "tim",
+      "fav",
+      "favorite",
+      "lưu",
+      "lưu bài",
+      "lưu bài hát",
+      "xem bài đã like",
+      "bài tôi đã like đâu",
+      "mất like",
+      "bỏ like",
+      "unlike",
+      "gỡ like",
+      "thả tym",
+      "tym",
+      "tim?",
+      "danh sách yêu thích",
+      "favorites ở đâu",
+      "like không lưu"
+    ],
+    "responses": [
+      "Để like bài hát, nhấn biểu tượng trái tim trên player – nó sẽ lưu vào danh sách Likes riêng tư của bạn (Menu > Likes). Nếu like không lưu, có thể do chưa đăng nhập hoặc kết nối yếu, thử refresh trang nhé. Bạn đang tìm bài đã like hay cần hướng dẫn thêm?",
+      "Like giúp bạn dễ dàng quay lại bài yêu thích. Danh sách này chỉ bạn xem được. Nếu mất like, kiểm tra token đăng nhập chưa hết hạn. Bạn muốn mình gợi ý bài hát dựa trên likes của bạn không?"
+    ]
+  },
+  {
+    "name": "intent_auth_login",
+    "trainingPhrases": [
+      "login",
+      "đăng nhập",
+      "log in",
+      "dn",
+      "dn?",
+      "đăng xuất",
+      "logout",
+      "out",
+      "token",
+      "token expired",
+      "hết hạn",
+      "session expired",
+      "tự nhiên bị đăng xuất",
+      "bị đá ra",
+      "quên mật khẩu",
+      "forgot password",
+      "reset password",
+      "save login",
+      "remember me",
+      "loign",
+      "lgin",
+      "lgoin",
+      "đăng ký tài khoản",
+      "tạo account",
+      "sign up"
+    ],
+    "responses": [
+      "Đăng nhập bằng email và mật khẩu để truy cập đầy đủ tính năng như like, playlist. Token lưu ở localStorage với key 'tmusic_token', nếu hết hạn thì login lại thôi. Nếu quên mật khẩu, dùng chức năng reset trên trang Login. Bạn cần link trang đăng nhập hay hướng dẫn đăng ký mới?",
+      "Nếu bị đăng xuất đột ngột, có thể do token expired – đăng nhập lại là ổn. Nhớ tick 'Remember me' để lưu lâu hơn. Bạn gặp vấn đề cụ thể gì với đăng nhập?"
+    ]
+  },
+  {
+    "name": "intent_help_faq",
+    "trainingPhrases": [
+      "help",
+      "giúp",
+      "support",
+      "hỗ trợ",
+      "admin",
+      "hỏi admin",
+      "faq",
+      "trợ giúp",
+      "cứu",
+      "giúp với",
+      "hướng dẫn sử dụng",
+      "cách dùng app",
+      "tutorial"
+    ],
+    "responses": [
+      "Mình ở đây để hỗ trợ! Bạn cần giúp về upload, premium, nghe nhạc, hay đăng nhập? Mình có thể giải thích chi tiết hoặc gửi link FAQ. Ví dụ, nếu về Premium, mình sẽ kể lợi ích và cách nâng cấp nhé.",
+      "Bạn gặp vấn đề gì vậy? Mô tả ngắn gọn (như lỗi upload hay tạo playlist), mình sẽ hướng dẫn từng bước hoặc chuyển cho admin nếu cần."
+    ]
+  },
+  {
+    "name": "intent_error_report",
+    "trainingPhrases": [
+      "lỗi",
+      "bug",
+      "crash",
+      "app văng",
+      "server lỗi",
+      "500",
+      "401",
+      "unauthorized",
+      "timeout",
+      "mạng yếu",
+      "không load được",
+      "stuck",
+      "báo lỗi",
+      "báo exception",
+      "lỗi player",
+      "lỗi tải nhạc",
+      "error code"
+    ],
+    "responses": [
+      "Ối, lỗi à? Hãy kể mình nghe: Bạn làm gì thì gặp lỗi, thấy thông báo gì, hoặc gửi ảnh chụp màn hình. Ví dụ, nếu 401 thì thử login lại; 500 có thể do server tạm thời. Mình sẽ kiểm tra và báo admin nếu cần.",
+      "Để fix lỗi nhanh: Kiểm tra mạng, clear cache, hoặc logout/login. Nếu vẫn vậy, mô tả chi tiết hơn nhé, mình sẽ hỗ trợ thêm hoặc gửi ticket cho đội ngũ."
+    ]
+  },
+  {
+    "name": "intent_playback_control",
+    "trainingPhrases": [
+      "play",
+      "pause",
+      "next",
+      "prev",
+      "previous",
+      "tiếp",
+      "tiếp theo",
+      "lùi",
+      "tua",
+      "tua tới",
+      "loop",
+      "lặp",
+      "loop 1",
+      "shuffle",
+      "trộn",
+      "mix",
+      "volume",
+      "to tiếng",
+      "nhỏ tiếng",
+      "mute",
+      "tốc độ phát",
+      "chậm lại",
+      "nhanh lên"
+    ],
+    "responses": [
+      "Player dễ dùng lắm: Play/Pause để phát/dừng, Next/Prev chuyển bài, Shuffle trộn ngẫu nhiên, Loop lặp lại, và kéo thanh để tua. Volume điều chỉnh ở góc phải. Bạn muốn hướng dẫn chi tiết cho nút nào, hay gặp vấn đề với player?",
+      "Nếu volume không thay đổi, kiểm tra âm lượng thiết bị. Shuffle và Loop giúp nghe nhạc thú vị hơn. Bạn đang dùng trên web hay mobile?"
+    ]
+  },
+  {
+    "name": "intent_search_song",
+    "trainingPhrases": [
+      "tìm bài",
+      "tìm nhạc",
+      "search",
+      "ai hát bài này",
+      "tìm theo lời",
+      "tìm ca sĩ",
+      "tìm bài theo lời",
+      "gợi ý nhạc",
+      "recommend song",
+      "bài hát hay",
+      "tìm album"
+    ],
+    "responses": [
+      "Tìm nhạc dễ thôi! Gõ tên bài, ca sĩ, hoặc đoạn lời vào thanh search. Ví dụ, 'Em của ngày hôm qua' sẽ ra kết quả nhanh. Bạn đang tìm bài nào? Mình có thể gợi ý dựa trên đó.",
+      "Nếu tìm theo lời, gõ chính xác một đoạn. Không tìm thấy? Có lẽ bài đó chưa được upload. Kể mình nghe bạn thích thể loại gì để recommend nhé."
+    ]
+  },
+  {
+    "name": "intent_account_profile",
+    "trainingPhrases": [
+      "profile",
+      "thông tin tài khoản",
+      "thông tin tk",
+      "đổi avatar",
+      "đổi mật khẩu",
+      "xóa tài khoản",
+      "delete account",
+      "cập nhật email",
+      "thay đổi tên",
+      "xem lịch sử nghe"
+    ],
+    "responses": [
+      "Vào trang Account để chỉnh profile: Đổi avatar, mật khẩu, hoặc xem thông tin. Nếu xóa tài khoản, tất cả dữ liệu sẽ mất vĩnh viễn. Bạn cần hướng dẫn phần nào cụ thể, hay gặp vấn đề khi cập nhật?",
+      "Profile giúp cá nhân hóa trải nghiệm. Đổi mật khẩu để bảo mật tốt hơn. Bạn muốn mình gửi link trang Account không?"
+    ]
+  },
+  {
+    "name": "intent_payment_receipt",
+    "trainingPhrases": [
+      "gửi bill",
+      "gửi receipt",
+      "upload bill",
+      "trạng thái thanh toán",
+      "tiền đã vào chưa",
+      "đã thanh toán chưa",
+      "kiểm tra premium",
+      "xác nhận thanh toán"
+    ],
+    "responses": [
+      "Sau khi thanh toán, upload ảnh receipt tại trang PremiumPayment. Admin sẽ duyệt trong 24-48 giờ để kích hoạt Premium. Nếu chờ lâu, gửi mình mã giao dịch để kiểm tra nhé.",
+      "Trạng thái thanh toán cập nhật sau khi duyệt receipt. Bạn đã gửi chưa? Nếu cần, mình hướng dẫn cách upload ảnh."
+    ]
+  },
+  {
+    "name": "intent_admin_actions",
+    "trainingPhrases": [
+      "duyệt receipt",
+      "ban user",
+      "block user",
+      "unblock",
+      "set premium",
+      "nâng cấp tài khoản",
+      "xóa bài",
+      "xoá bài",
+      "quản lý user",
+      "admin dashboard"
+    ],
+    "responses": [
+      "Các hành động như duyệt receipt hay xóa bài chỉ admin làm qua dashboard. Nếu bạn là admin, hãy đăng nhập dashboard. Còn nếu cần hỗ trợ, kể mình nghe vấn đề để chuyển giúp.",
+      "Mình không thực hiện hành động admin trực tiếp, nhưng có thể hướng dẫn bạn liên hệ admin. Bạn gặp vấn đề gì cần can thiệp?"
+    ]
+  },
+  {
+    "name": "fallback",
+    "trainingPhrases": [],
+    "responses": [
+      "Mình chưa hiểu rõ ý bạn lắm. Hãy thử hỏi cụ thể hơn, như 'cách upload nhạc' hoặc 'nâng cấp Premium'. Hoặc mình gửi link FAQ để bạn tự xem nhé?",
+      "Xin lỗi, câu hỏi đó hơi mơ hồ. Bạn có thể diễn đạt lại không? Mình sẽ cố gắng hỗ trợ tốt hơn."
+    ]
+  }
+]
