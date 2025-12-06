@@ -6,7 +6,7 @@ import { assets } from "../assets/assets";
 import axios from "axios";
 import { PlayerContext } from "../context/PlayerContext";
 
-const API_BASE = "http://localhost:4000";
+const API_BASE = "https://t-music.onrender.com";
 
 const DisplayPlaylist = () => {
   const { id } = useParams();
