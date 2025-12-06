@@ -3,7 +3,7 @@ import Navbar from "./Navbar";
 import { assets } from "../assets/assets";
 import { useNavigate } from "react-router-dom";
 
-const API_BASE = "http://localhost:4000"; // sửa nếu cần
+const API_BASE = "https://t-music.onrender.com"; 
 
 const LoginRegister = () => {
   const [isLogin, setIsLogin] = useState(true);
