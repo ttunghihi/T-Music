@@ -35,7 +35,7 @@ app.use(express.json());
 // CORS
 const ALLOWED_ORIGINS = [
   "https://t-music.onrender.com",
-  "https://t-music.vercel.app/",
+  "https://t-music-1.onrender.com",
 ];
 
 app.use(
