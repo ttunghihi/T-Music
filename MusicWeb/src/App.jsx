@@ -4,7 +4,7 @@ import Sidebar from "./components/Sidebar";
 import Player from "./components/Player";
 import Display from "./components/Display";
 import { PlayerContext } from "./context/PlayerContext";
-import Chatbot from "./components/ChatBot";
+import Chatbot from "./components/Chatbot";
 import AdModal from "./components/AdModal";
 
 const AD_INTERVAL_MS = 5 * 60 * 1000; // 5 phút
