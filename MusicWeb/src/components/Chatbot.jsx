@@ -2,8 +2,8 @@
 import React, { useState, useRef, useEffect } from "react";
 import axios from "axios";
 
-const BOT_API = "http://localhost:5002/api/bot/message";
-const BOT_HEALTH = "http://localhost:5002/api/bot/health";
+const BOT_API = "https://t-music-chatbot.onrender.com/api/bot/message";
+const BOT_HEALTH = "https://t-music-chatbot.onrender.com/api/bot/health";
 
 export default function Chatbot() {
   const [open, setOpen] = useState(false);
