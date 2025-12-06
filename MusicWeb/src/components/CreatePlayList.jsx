@@ -5,7 +5,7 @@ import { assets } from "../assets/assets";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 
-const API_BASE = "http://localhost:4000"; // đổi nếu cần
+const API_BASE = "https://t-music.onrender.com"; // đổi nếu cần
 
 const CreatePlaylist = () => {
   const navigate = useNavigate();
