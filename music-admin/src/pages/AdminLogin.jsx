@@ -122,12 +122,6 @@ export default function AdminLogin() {
             {loading ? "Đang xử lý..." : "Đăng nhập"}
           </button>
         </form>
-
-        <div className="mt-6 text-center text-sm text-gray-500">
-          <div>Admin mặc định: <code className="bg-gray-100 px-2 py-1 rounded">admin@tmusic.local</code></div>
-          <div>Mật khẩu mặc định: <code className="bg-gray-100 px-2 py-1 rounded">Admin12345</code></div>
-          <div className="mt-2">(Thay đổi trong file server nếu cần)</div>
-        </div>
       </div>
     </div>
   );
