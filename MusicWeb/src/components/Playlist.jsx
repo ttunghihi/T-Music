@@ -6,7 +6,7 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import { PlayerContext } from "../context/PlayerContext";
 
-const API_BASE = "http://localhost:4000";
+const API_BASE = "https://t-music.onrender.com";
 
 const Playlist = () => {
   const navigate = useNavigate();
