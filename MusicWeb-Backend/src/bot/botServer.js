@@ -34,10 +34,8 @@ app.use(express.json());
 
 // CORS
 const ALLOWED_ORIGINS = [
-  "http://localhost:3000",
-  "http://localhost:4000",
-  "http://localhost:5173",
-  "http://127.0.0.1:5173",
+  "https://t-music.onrender.com",
+  "https://t-music.vercel.app/",
 ];
 
 app.use(
