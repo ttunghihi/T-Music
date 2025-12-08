@@ -12,6 +12,7 @@ import Song from "../models/songModel.js"; // nếu đường dẫn khác, chỉ
 // ----------------- PendingUser model (tạm lưu đăng ký trước khi verify OTP) -----------------
 // Bạn có thể tách phần này ra models/pendingUserModel.js nếu muốn.
 const pendingUserSchema = new mongoose.Schema(
+  
   {
     name: { type: String, required: true },
     email: { type: String, required: true, index: true, unique: true },
