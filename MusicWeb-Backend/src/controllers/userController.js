@@ -15,7 +15,7 @@ const pendingUserSchema = new mongoose.Schema(
   
   {
     name: { type: String, required: true },
-    email: { type: String, required: true, index: true, unique: true },
+    email: { type: String, required: true, unique: true },
     passwordHash: { type: String, required: true }, // đã hash
     otpCode: { type: String, default: null }, // hashed otp
     otpExpires: { type: Date, default: null },
