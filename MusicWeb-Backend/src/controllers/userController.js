@@ -36,7 +36,7 @@ const JWT_EXPIRES_IN = process.env.JWT_EXPIRES_IN || "7d";
 // Config mailer (nodemailer)
 const mailTransporter = nodemailer.createTransport({
   host: process.env.SMTP_HOST || "smtp.example.com",
-  port: Number(process.env.SMTP_PORT || 465),
+  port: Number(process.env.SMTP_PORT || 587),
   secure: process.env.SMTP_SECURE === "true",
   auth: {
     user: process.env.SMTP_USER || "",
