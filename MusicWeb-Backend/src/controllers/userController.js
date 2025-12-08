@@ -35,14 +35,25 @@ const JWT_EXPIRES_IN = process.env.JWT_EXPIRES_IN || "7d";
 
 // Config mailer (nodemailer)
 const mailTransporter = nodemailer.createTransport({
-  host: process.env.SMTP_HOST || "smtp.example.com",
-  port: Number(process.env.SMTP_PORT || 587),
-  secure: process.env.SMTP_SECURE === "true",
+  host: process.env.SMTP_HOST,
+  port: Number(process.env.SMTP_PORT),
+  secure: process.env.SMTP_SECURE === "true", // false
   auth: {
-    user: process.env.SMTP_USER || "",
-    pass: process.env.SMTP_PASS || "",
+    user: process.env.SMTP_USER,
+    pass: process.env.SMTP_PASS,
   },
+  connectionTimeout: 10000,
+  greetingTimeout: 10000,
 });
+
+mailTransporter.verify((error, success) => {
+  if (error) {
+    console.error("❌ SMTP VERIFY FAILED:", error);
+  } else {
+    console.log("✅ SMTP READY TO SEND MAIL");
+  }
+});
+
 
 // Google client
 const GOOGLE_CLIENT_ID = process.env.GOOGLE_CLIENT_ID || "";
