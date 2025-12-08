@@ -30,7 +30,6 @@ const userSchema = new mongoose.Schema({
 
 
 // index on email
-userSchema.index({ email: 1 }, { unique: true });
 
 // virtual: playlists created by this user (không lưu trong document, thuận tiện khi populate)
 userSchema.virtual("playlists", {
